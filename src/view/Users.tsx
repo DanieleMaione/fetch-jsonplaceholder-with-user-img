@@ -47,7 +47,7 @@ export const Users = () => {
                 Bs: {elm.company.bs}
               </h5>
             </div>
-          );
+          ); else return null;
       })}
     </>
   );
